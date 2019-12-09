@@ -1,0 +1,32 @@
+section{
+    background-color: aliceblue;
+}
+
+h2{
+    background-color: #019dd9;
+    color: whitesmoke;
+    padding: 10px 30px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 100;
+    font-size: 30px;
+}
+
+p{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    margin: 10px 30px 20px;
+    text-align: justify;
+}
+
+li{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    margin: 10px 12px 20px;
+    color: gray;
+}
+
+.tarea{
+    color: grey;
+}

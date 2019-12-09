@@ -1,0 +1,12 @@
+header{
+    background-image: url(../imagenes/Background.png);    
+}
+
+h1{
+    padding: 30px 30px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 100;
+    font-size: 60px;
+    text-align: center;
+    text-decoration: underline;
+}
