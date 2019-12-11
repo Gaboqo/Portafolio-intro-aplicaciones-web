@@ -1,0 +1,83 @@
+body{
+    background-color:#dbffc3;
+    font-family: 'Oswald', sans-serif;
+}
+
+h1{
+    font-weight: 700;
+    color:#1b68c6;
+    text-align: center;
+    font-size: 50px;
+}
+
+#diasC{
+    border-collapse: separate;
+    font-size: 30px;
+    width: 50%;
+    text-align: center;
+    font-weight: 300;
+    margin: auto;
+    table-layout: fixed;
+}
+
+th{
+    background-color:#1b68c6;
+    color: aliceblue;
+}
+
+.calendario {
+    display: flex;
+    align-items: center;
+}
+
+.calendario > div{
+    width: 100px;
+    margin: 10px;
+    font-size: 40px;
+}
+
+#titulos{
+    flex-grow: 5;
+    text-align: center;
+}
+
+#anterior, #posterior{
+    font-weight: 300;
+    font-size: 30px;
+    flex-grow: 2;
+    cursor: pointer;
+}
+
+#anterior{
+    text-align: right;
+}
+
+#fechaActual{
+    font-size: 25px;
+    text-align: center;
+    padding: 10px;
+}
+
+.hoy{
+    cursor: pointer;
+}
+
+#buscarFecha{
+    font-size: 25px;
+    text-align: center;
+}
+
+select, input{
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    background-color: aliceblue
+}
+
+.boton{
+    border: none;
+    text-decoration: none;
+    padding: 5px 20px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    border-radius: 12px;
+}
