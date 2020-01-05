@@ -1,0 +1,80 @@
+body{
+    background: url(../img/Fotoram.io.jpg) fixed center no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+
+h1{
+    text-align: center;
+    font-size: 30px;
+}
+
+button{
+    margin-bottom: 15px;
+    padding: 15px;
+}
+
+input[type=text], input[type=password]{
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #fff;
+    padding: 10px 0;
+    transition: border 0.5s;
+    outline: none;
+    color: rgb(164, 194, 247);
+}
+
+a{
+    font-size: 17px;
+    color: rgb(66, 141, 255);
+}
+
+a:hover{
+    color: rgb(164, 194, 247);
+    text-decoration: none;
+}
+
+.pass-manage{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.form-control::placeholder{
+    text-align: center;
+    color: rgb(164, 194, 247);
+}
+
+.img-user{
+    margin-top: -50px;
+    text-align: center;
+}
+
+.img-user img{
+    width: 150px;
+    height: 150px;
+}
+
+.modal-content{
+    background: rgba(44, 62, 80, 0.9);
+    padding: 0 20px;
+}
+
+.form-control:focus {
+    box-shadow: none;
+    background-color: transparent;
+    color: #fff;
+}
+
+.create-account{
+    display: flex;
+    justify-content: left;
+    font-size: 17px;
+    border: none;
+}
+
+.alert-space{
+    border: none;
+    display: flex;
+    justify-content: center;
+}
